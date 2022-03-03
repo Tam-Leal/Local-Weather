@@ -63,7 +63,8 @@ name_file <-"./Assets/png files/{timestamp}.png"
 ggsave(glue(name_file),plot=plot_pennsylvania, width = 1920/72, height = 1080/72, dpi = 72)
 
 ```
-Format: ![Alt text](./Assets/png files/03_03_2022 17_32_19.png)
+
+![alt text](https:// https://github.com/Tam-Leal/Local-Weather.git/blob/master/03_03_2022 17_30_41.png?raw=true)
 
 ***Save the image in html file which allows you the plotly experience.***
 ```
