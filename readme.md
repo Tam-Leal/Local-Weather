@@ -64,7 +64,7 @@ ggsave(glue(name_file),plot=plot_pennsylvania, width = 1920/72, height = 1080/72
 
 ```
 
-![alt text](https:// https://github.com/Tam-Leal/Local-Weather.git/blob/master/Assets/png files/aaa.png?raw=true)
+![alt text](https:// https://github.com/Tam-Leal/Local-Weather.git/blob/master/aaa.png?raw=true)
 
 ***Save the image in html file which allows you the plotly experience.***
 ```
