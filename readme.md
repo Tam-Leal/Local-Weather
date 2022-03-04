@@ -77,6 +77,7 @@ htmlwidgets::saveWidget(image_plotly, file = glue("{timestamp}.html"), selfconta
 
 file.rename(glue("{timestamp}.html"), glue("./Assets/html files/{timestamp}.html"))
 ```
-![Plotly Experience](example_gif.gif)
+![alt text](https://github.com/Tam-Leal/Local-Weather/blob/976c9813ba7eb33a152d4b9313ca54b960cef930/Assets/gif_files/example_gif.gif?raw=true)
+
 
 
