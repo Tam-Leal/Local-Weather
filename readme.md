@@ -49,7 +49,6 @@ api_key = ' Your API key '
 
 #...
 ```
-<br>
 
 #### IMAGES
 
