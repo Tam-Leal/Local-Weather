@@ -61,7 +61,7 @@ name_file <-"./Assets/png files/{timestamp}.png"
 ggsave(glue(name_file),plot=plot_pennsylvania, width = 1920/72, height = 1080/72, dpi = 72)
 ```
 
-![Pennsylvania Counties](https://github.com/Tam-Leal/Local-Weather/blob/d37ab2ed6540dd921c86e65c4b1f1df3eea5ba41/Assets/png_files/03_04_2022 10_14_20.png?raw=true)
+![Pennsylvania Counties](https://github.com/Tam-Leal/Local-Weather/blob/bef7fd65d472492ed1e90eac98dcdd52d9ffbd7b/Assets/png_files/03_04_2022%2010_14_20.png?raw=true)
 
 
 ***Save the image in html file which allows you the plotly experience.***
