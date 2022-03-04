@@ -1,3 +1,2 @@
 *.html linguist-detectable=false
-*.python linguist-detectable=true
-*.r linguist-detectable=true 
+*.Rmd  linguist-detectable
