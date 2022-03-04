@@ -78,5 +78,5 @@ htmlwidgets::saveWidget(image_plotly, file = glue("{timestamp}.html"), selfconta
 file.rename(glue("{timestamp}.html"), glue("./Assets/html files/{timestamp}.html"))
 ```
 
-{% include aaa.html %}
+![alt text](https://github.com/Tam-Leal/Local-Weather/blob/666f6fc3e0e80ffe6e50a4d3d9f1f15f4b1a0ba4/Assets/html_files/htmlfig.html?raw=true)
 
