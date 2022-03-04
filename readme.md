@@ -49,7 +49,6 @@ api_key = ' Your API key '
 
 #...
 ```
-<br>
 
 #### IMAGES
 
@@ -62,9 +61,7 @@ Thus, it is possible to archive several images and use them for comparisons, ass
 name_file <-"./Assets/png files/{timestamp}.png"
 ggsave(glue(name_file),plot=plot_pennsylvania, width = 1920/72, height = 1080/72, dpi = 72)
 ```
-![Temperature in Pennsylvania counties](example_fig.png)
-
-![alt text](https://github.com/Tam-Leal/Local-Weather/blob/d37ab2ed6540dd921c86e65c4b1f1df3eea5ba41/Assets/png_files/03_02_2022%2011_38_52.png?raw=true)
+![alt text](https://github.com/Tam-Leal/Local-Weather/blob/44283e23622847ab8ffcced50c368b99b0fd4911/Assets/png_files/03_03_2022%2021_38_09.png?raw=true)
 
 
 
