@@ -60,13 +60,8 @@ Thus, it is possible to archive several images and use them for comparisons, ass
 name_file <-"./Assets/png files/{timestamp}.png"
 ggsave(glue(name_file),plot=plot_pennsylvania, width = 1920/72, height = 1080/72, dpi = 72)
 ```
-<<<<<<< HEAD
-![alt text](https://github.com/Tam-Leal/Local-Weather/blob/44283e23622847ab8ffcced50c368b99b0fd4911/Assets/png_files/03_03_2022%2021_38_09.png?raw=true)
-=======
 
-![alt text](https://github.com/Tam-Leal/Local-Weather/blob/d37ab2ed6540dd921c86e65c4b1f1df3eea5ba41/Assets/png_files/03_02_2022%2011_38_52.png?raw=true)
->>>>>>> 81d90b5b8879dad44d976a512cccce9feff80af8
-
+![Pennsylvania Counties](https://github.com/Tam-Leal/Local-Weather/blob/d37ab2ed6540dd921c86e65c4b1f1df3eea5ba41/Assets/png_files/03_02_2022%2011_38_52.png?raw=true)
 
 
 ***Save the image in html file which allows you the plotly experience.***
@@ -79,7 +74,7 @@ htmlwidgets::saveWidget(image_plotly, file = glue("{timestamp}.html"), selfconta
 
 file.rename(glue("{timestamp}.html"), glue("./Assets/html files/{timestamp}.html"))
 ```
-![alt text](https://github.com/Tam-Leal/Local-Weather/blob/976c9813ba7eb33a152d4b9313ca54b960cef930/Assets/gif_files/example_gif.gif?raw=true)
+![Plotly Experience](https://github.com/Tam-Leal/Local-Weather/blob/976c9813ba7eb33a152d4b9313ca54b960cef930/Assets/gif_files/example_gif.gif?raw=true)
 
 
 
