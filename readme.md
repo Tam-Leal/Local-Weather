@@ -15,8 +15,7 @@ There is also the possibility of saving the final result in Html, enabling inter
 #### Packages
 
 ```{note}
-rgdal,raster,tmap,maptools,tidyverse,broom,knitr,kableExtra,
-RColorBrewer,plotly,htmlwidgets,weathermetrics,glue
+rgdal,raster,tmap,maptools,tidyverse,broom,knitr,kableExtra,RColorBrewer,plotly,htmlwidgets,weathermetrics,glue
 ```  
 Note: For the installation of these packages, we used a specific routine that is inside the Pennsylvania.Rmd. Feel free to install the way you feel best. <br /><br />
 
