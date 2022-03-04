@@ -5,7 +5,7 @@ Application to visualize temperatures in the counties of Pennsylvania using spat
 
 # The Project
 ***
-The idea of this project is to visualize the temperatures of a certain region, in this case of Pennsylvania, using shape files, based on requests through a geolocation API for latitude and longitude.
+The idea of this project is to mapping the temperatures of a certain region, in this case of Pennsylvania, using shape files, based on requests through a geolocation API for latitude and longitude.
 It is possible to extend to other countries, cities or counties.
 There is also the possibility of saving the final result in Html, enabling interactive presentations
 
