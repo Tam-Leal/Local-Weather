@@ -14,9 +14,9 @@ There is also the possibility of saving the final result in Html, enabling inter
 
 #### Packages
 
-```
+```{note}
 rgdal,raster,tmap,maptools,tidyverse,broom,knitr,kableExtra,
-RColorBrewer,plotly,htmlwidgets,weathermetrics
+RColorBrewer,plotly,htmlwidgets,weathermetrics,glue
 ```  
 Note: For the installation of these packages, we used a specific routine that is inside the Pennsylvania.Rmd. Feel free to install the way you feel best. <br /><br />
 
@@ -24,7 +24,7 @@ Note: For the installation of these packages, we used a specific routine that is
 
 The reticulate package provides a comprehensive set of tools for interoperability between Python and R.
 
-```
+```{note}
 library(reticulate)
 use_python("C:/Users/tamer/AppData/Local/Programs/Python/Python37/python.exe")
 ```
@@ -41,7 +41,7 @@ Get your API to make the temperature queries for references to the latitudes and
 
 With the API in hand, replace the part corresponding to the code below:
 
-```
+```{note}
 import csv
 import requests
 
@@ -58,17 +58,18 @@ In order not to overwrite the saved images, it was conditioned that the name of 
 Thus, it is possible to archive several images and use them for comparisons, assembly of sequences and animations, even to follow the evolution of temperatures.
 
 ***Save the images as png file.***
-```
+```{note}
 name_file <-"./Assets/png files/{timestamp}.png"
 ggsave(glue(name_file),plot=plot_pennsylvania, width = 1920/72, height = 1080/72, dpi = 72)
-
 ```
+![Temperature in Pennsylvania counties](example_fig.png)
 
 ![alt text](https://github.com/Tam-Leal/Local-Weather/blob/d37ab2ed6540dd921c86e65c4b1f1df3eea5ba41/Assets/png_files/03_02_2022%2011_38_52.png?raw=true)
 
 
+
 ***Save the image in html file which allows you the plotly experience.***
-```
+```{note}
 image_plotly<-ggplotly(plot_pennsylvania,tooltip = "text")
 
 htmlwidgets::saveWidget(image_plotly, file = glue("{timestamp}.html"), selfcontained=TRUE) 
@@ -77,6 +78,6 @@ htmlwidgets::saveWidget(image_plotly, file = glue("{timestamp}.html"), selfconta
 
 file.rename(glue("{timestamp}.html"), glue("./Assets/html files/{timestamp}.html"))
 ```
+![Plotly Experience](example_gif.gif)
 
-![alt text](https://github.com/Tam-Leal/Local-Weather/blob/666f6fc3e0e80ffe6e50a4d3d9f1f15f4b1a0ba4/Assets/html_files/htmlfig.html?raw=true)
 
